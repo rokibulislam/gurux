@@ -1,0 +1,27 @@
+{
+    "name": "rokibulislam/guru-x",
+    "autoload": {
+        "psr-4": {
+            "Rokibulislam\\GuruX\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "rokibulislam",
+            "email": "rrcucse.11@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^3.0"
+    },
+    "scripts": {
+        "phpcs": [
+            "phpcs --standard=WordPress -p"
+        ]
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
